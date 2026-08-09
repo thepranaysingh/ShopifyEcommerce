@@ -31,11 +31,10 @@ A modern, responsive e-commerce storefront built from scratch using **HTML, CSS,
 
 ## 📸 Preview
 
-Add a screenshot named `screenshot.png` to the project root:
-
-```md
-![Shopify E-Commerce Preview](./Screenshot1.png)
-(./Screenshot2.png)```
+<p align="center">
+  <img src="./Screenshot1.png" width="48%">
+  <img src="./Screenshot2.png" width="48%">
+</p>
 
 ## 📂 Project Structure
 
@@ -105,8 +104,3 @@ No backend or build tool is required.
 ## 👨‍💻 Author
 
 **Pranay Singh**
-
-B.Tech Computer Science & Engineering  
-Institute of Engineering & Technology, Lucknow
-
-⭐ If you like this project, consider giving the repository a star.
