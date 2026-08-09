@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify — Modern Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    Free shipping on orders over ₹999 <span>•</span> Easy 7-day returns
+  </div>
+
+  <header class="header">
+    <button class="mobile-menu" id="mobileMenu">☰</button>
+    <a class="logo" href="#">shopify<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#new">New In</a>
+      <a href="#shop">Shop</a>
+      <a href="#bestsellers">Best Sellers</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="header-icon" id="searchBtn" title="Search">⌕</button>
+      <button class="header-icon" title="Account">♙</button>
+      <button class="header-icon cart-btn" id="cartBtn" title="Cart">
+        🛒
+        <b id="cartCount">0</b>
+      </button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel">
+    <input id="searchInput" type="search" placeholder="Search products...">
+    <button id="closeSearch">×</button>
+  </div>
+
+  <main>
+    <section class="hero" id="new">
+      <div class="hero-copy">
+        <p class="eyebrow">THE NEW COLLECTION</p>
+        <h1>Designed for<br><em>everyday.</em></h1>
+        <p class="hero-text">
+          Thoughtfully designed essentials that make your everyday moments feel a little more special.
+        </p>
+        <a class="hero-btn" href="#shop">Shop collection <span>→</span></a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1100&q=85"
+          alt="Minimal product photography"
+        >
+        <div class="hero-tag">NEW<br>SEASON</div>
+      </div>
+    </section>
+
+    <section class="category-strip" id="shop">
+      <button class="category active" data-category="All">All Products</button>
+      <button class="category" data-category="Accessories">Accessories</button>
+      <button class="category" data-category="Lifestyle">Lifestyle</button>
+      <button class="category" data-category="Tech">Tech</button>
+      <button class="category" data-category="Home">Home</button>
+    </section>
+
+    <section class="products-section" id="bestsellers">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CURATED FOR YOU</p>
+          <h2>Best sellers</h2>
+        </div>
+        <p class="product-count" id="productCount">8 products</p>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="editorial" id="about">
+      <div class="editorial-image">
+        <img
+          src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1100&q=85"
+          alt="Lifestyle accessories"
+        >
+        <div class="editorial-overlay">LESS<br>CLUTTER.<br>MORE<br>JOY.</div>
+      </div>
+
+      <div class="editorial-copy">
+        <p class="eyebrow">OUR PHILOSOPHY</p>
+        <h2>Buy less.<br><em>Choose better.</em></h2>
+        <p>
+          We believe good design should feel effortless. Shopify brings together useful objects,
+          considered materials and timeless forms for a more intentional everyday.
+        </p>
+        <a href="#shop">Explore the collection →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a class="logo footer-logo" href="#">shopify<span>.</span></a>
+      <p>Thoughtful essentials for everyday living.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <p class="copyright">© 2026 Shopify. Demo project.</p>
+  </footer>
+
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="product-modal">
+      <button class="modal-close" id="modalClose">×</button>
+      <div class="modal-visual" id="modalVisual"></div>
+
+      <div class="modal-info">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-price" id="modalPrice"></p>
+        <p id="modalDescription"></p>
+        <button class="add-btn" id="modalAdd">Add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-head">
+      <div>
+        <p class="eyebrow">YOUR BAG</p>
+        <h2>Shopping cart</h2>
+      </div>
+      <button id="closeCart">×</button>
+    </div>
+
+    <div class="cart-items" id="cartItems"></div>
+
+    <div class="cart-footer">
+      <div>
+        <span>Subtotal</span>
+        <strong id="cartTotal">₹0</strong>
+      </div>
+      <button class="checkout" id="checkoutBtn">Checkout →</button>
+      <small>Taxes and shipping calculated at checkout.</small>
+    </div>
+  </aside>
+
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+# 🛍️ Shopify — E-Commerce Website
+
+A modern, responsive e-commerce storefront built from scratch using **HTML, CSS, and JavaScript**.
+
+## ✨ Features
+
+- 🛍️ Modern e-commerce storefront
+- 📸 Real product photography
+- 📱 Fully responsive design
+- 🔍 Product search
+- 🏷️ Category filtering
+- 👀 Product detail modal
+- 🛒 Add to cart
+- 🗑️ Remove from cart
+- 💰 Dynamic cart subtotal
+- 💾 Cart persistence with Local Storage
+- 📱 Mobile navigation
+- 🔔 Toast notifications
+- 💳 Checkout demo flow
+
+## 🛠️ Technologies
+
+- HTML5
+- CSS3
+- JavaScript ES6+
+- DOM Manipulation
+- Local Storage
+- CSS Grid
+- CSS Flexbox
+- Responsive Design
+
+## 📸 Preview
+
+Add a screenshot named `screenshot.png` to the project root:
+
+```md
+![Shopify E-Commerce Preview](./Screenshot1.png)
+(./Screenshot2.png)```
+
+## 📂 Project Structure
+
+```text
+shopify-ecommerce/
+│
+├── index.html
+├── style.css
+├── script.js
+├── screenshot.png
+└── README.md
+```
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/shopify-ecommerce.git
+cd shopify-ecommerce
+```
+
+Open `index.html` in your browser.
+
+No backend or build tool is required.
+
+## 🎯 Frontend Concepts Practiced
+
+### HTML
+- Semantic structure
+- Navigation
+- Product cards
+- Product modal
+- Shopping cart UI
+
+### CSS
+- CSS Grid
+- Flexbox
+- Responsive media queries
+- CSS variables
+- Hover effects
+- Transitions
+- Modern typography
+- E-commerce layouts
+
+### JavaScript
+- DOM manipulation
+- Event listeners
+- Product filtering
+- Search
+- Modal management
+- Cart state
+- Local Storage
+- Dynamic calculations
+- Responsive navigation
+
+## 🔮 Future Improvements
+
+- Backend API
+- User authentication
+- MongoDB
+- Product reviews
+- Wishlist
+- Real payment gateway
+- Order management
+- Admin dashboard
+- React.js version
+
+## 👨‍💻 Author
+
+**Pranay Singh**
+
+B.Tech Computer Science & Engineering  
+Institute of Engineering & Technology, Lucknow
+
+⭐ If you like this project, consider giving the repository a star.
