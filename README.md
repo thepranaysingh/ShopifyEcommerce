@@ -51,15 +51,13 @@ shopify-ecommerce/
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/shopify-ecommerce.git
+git clone https://github.com/thepranaysingh/ShopifyEcommerce.git
 cd shopify-ecommerce
 ```
 
 Open `index.html` in your browser.
 
 No backend or build tool is required.
-
-## 🎯 Frontend Concepts Practiced
 
 ### HTML
 - Semantic structure
