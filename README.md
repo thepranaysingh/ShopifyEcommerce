@@ -52,7 +52,7 @@ shopify-ecommerce/
 
 ```bash
 git clone https://github.com/thepranaysingh/ShopifyEcommerce.git
-cd shopify-ecommerce
+cd ShopifyEcommerce
 ```
 
 Open `index.html` in your browser.
